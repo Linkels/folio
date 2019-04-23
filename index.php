@@ -118,7 +118,7 @@
 				<span class="flag">LE CODE DU 18 BRUMAIRE</span>
 				<span class="time-wrapper"><span class="time">06/04/2016 au 10/03/2018</span></span>
 			</div>
-			<div class="desc">Dans cet entreprise j'ai crée des sites pour des gouvernements révolutionnaires !!</div>
+			<div class="desc">Dans cet entreprise j'ai créé des sites pour des gouvernements révolutionnaires !!</div>
 		</div>
 	</li>
 
@@ -129,7 +129,7 @@
 				<span class="flag">CODE DOMINUM</span>
 				<span class="time-wrapper"><span class="time">19/07/2014 au 02/04/2016</span></span>
 			</div>
-			<div class="desc">Dans cette entreprise j'ai coder des sites pour des grands restaurants à ROME.</div>
+			<div class="desc">Dans cette entreprise j'ai codé des sites pour des grands restaurants à ROME.</div>
 		</div>
 	</li>
 
