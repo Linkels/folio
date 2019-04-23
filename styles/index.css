@@ -193,7 +193,6 @@ h3
   position: relative;
   margin: 10px;
   padding: 30px;
-  border: 2px solid red;
 }
 
 #parcours h4
@@ -211,11 +210,11 @@ h3
   text-decoration: underline red;
 }
 
-#parcours hr
+#parcours hr /* ligne de séparation sous le titre parcours */
 {
   height: 3px;
-  border-color: red;
-  background-color: red;
+  border-color: #000;
+  background-color: #000;
 }
 
 #parcours ul
