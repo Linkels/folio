@@ -15,7 +15,7 @@
           <img class="présentation" src="images/simplonpolyblanc.png" alt="logo de simplon"
           width="250em" height="200em"/>
       </div>
-    </div>  
+    </div>
     <div class="contact">
       <form>
         <h1 id="shadow">Nous contacter</h1>
@@ -26,7 +26,8 @@
         <input id="input" type="text" name="objet"
           required placeholder="Objet de votre demande" class="object"><br/>
         <textarea name="message"
-          rows="8" cols="43em" required placeholder="Tapez votre message ici !!"></textarea>
+          rows="8" cols="43em" required placeholder="Tapez votre message ici !!"></textarea><br>
+          <input type="submit" value="Envoyer Mon Message" />
       </form>
     </div>
   </div>

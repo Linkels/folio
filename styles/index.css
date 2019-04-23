@@ -249,7 +249,7 @@ h3
     background: transparent;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 50px;
     font-size: 30px;
    }
 
@@ -264,7 +264,7 @@ h3
 
     .parallax-element {
       padding-bottom: 900px;
-      padding-left: 30px;
+      padding-left: 100px;
       min-height: 35px;
       background: transparent;
       text-align: center;

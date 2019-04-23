@@ -60,10 +60,11 @@
 					<img src="images/image2.png">
 				</div>
 			</div>
+      		</div>
 <!-- fin de la partie qui suis je-->
 
 
-		</div>
+
 
     <!-- paralax 4 elem -->
     <div class="parallax-element" data-parallax="scroll" data-image-src="images/para.png" alt="" id="par">
