@@ -92,44 +92,41 @@
 		<!-- parcours-->
     <div id="parcours">
   		<h4>PARCOURS</h4>
-  		<!--titre parcours-->
   		<hr>
-  		<!--mettre le trait-->
-      <h5>TIMELINE</h5>
       <!-- The Timeline -->
 
 <ul class="timeline">
 
-	<!-- Item 1 -->
+	<!-- Expérience la plus récente -->
 	<li>
-		<div class="direction-r">
+		<div class="direction-r"> <!--déployée du côté droit-->
 			<div class="flag-wrapper">
-				<span class="flag">INTERNATIONAL CODE</span>
-				<span class="time-wrapper"><span class="time">21/03/2018 au 09/01/2019</span></span>
+				<span class="flag">INTERNATIONAL CODE</span> <!-- Intitulé -->
+				<span class="time-wrapper"><span class="time">21/03/2018 au 09/01/2019</span></span> <!-- affichage de la période -->
 			</div>
-			<div class="desc">J'ai créé des sites pour des entreprise multinationales !</div>
+			<div class="desc">J'ai créé des sites pour des entreprise multinationales !</div> <!-- description de l'expérience -->
 		</div>
 	</li>
 
-	<!-- Item 2 -->
+	<!-- Expérience intermédiaire -->
 	<li>
-		<div class="direction-l">
+		<div class="direction-l"> <!--déployée du côté gauche-->
 			<div class="flag-wrapper">
-				<span class="flag">LE CODE DU 18 BRUMAIRE</span>
-				<span class="time-wrapper"><span class="time">06/04/2016 au 10/03/2018</span></span>
+				<span class="flag">LE CODE DU 18 BRUMAIRE</span> <!-- Intitulé -->
+				<span class="time-wrapper"><span class="time">06/04/2016 au 10/03/2018</span></span> <!-- affichage de la période -->
 			</div>
-			<div class="desc">Dans cet entreprise j'ai créé des sites pour des gouvernements révolutionnaires !!</div>
+			<div class="desc">Dans cet entreprise j'ai créé des sites pour des gouvernements révolutionnaires !!</div> <!-- description de l'expérience -->
 		</div>
 	</li>
 
-	<!-- Item 3 -->
+	<!-- Expérience la plus ancienne -->
 	<li>
-		<div class="direction-r">
+		<div class="direction-r"> <!--déployée du côté droit-->
 			<div class="flag-wrapper">
-				<span class="flag">CODE DOMINUM</span>
-				<span class="time-wrapper"><span class="time">19/07/2014 au 02/04/2016</span></span>
+				<span class="flag">CODE DOMINUM</span> <!-- Intitulé -->
+				<span class="time-wrapper"><span class="time">19/07/2014 au 02/04/2016</span></span> <!-- affichage de la période -->
 			</div>
-			<div class="desc">Dans cette entreprise j'ai codé des sites pour des grands restaurants à ROME.</div>
+			<div class="desc">Dans cette entreprise j'ai codé des sites pour des grands restaurants à ROME.</div> <!-- description de l'expérience -->
 		</div>
 	</li>
 
