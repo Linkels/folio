@@ -72,19 +72,21 @@
        <div id="ico">
          <div id="wrapper">
            <ul id="menu">
-     <li><center><i class="fas fa-user fa-stack fa-4x"></i></i><br>
-     <h4>100 %</h4></li>
-     <li><center><i class="fas fa-user fa-stack fa-4x"></i></i><br>
-     <h4>100 %</h4></li>
-     <li><center><i class="fas fa-user fa-stack fa-4x"></i></i><br>
-     <h4>100 %</h4></li>
-     <li><center><i class="fas fa-mug-hot fa-stack fa-4x"></i></i><br> 
-     <h4>100 %</h4></li>
-          </ul>
-        </div>
-       </div>
-     </div>
-      </div>
+             <font color="white">
+               <li><center><i class="fas fa-tasks fa-stack fa-inverse fa-4x"></i></i><br>
+                 <h4>11 projets</h4></li>
+                 <li><center><i class="fas fa-user-check fa-stack fa-inverse fa-4x"></i></i><br>
+                   <h4>11 clients</h4></li>
+                   <li><center><i class="fas fa-code fa-stack fa-inverse fa-4x"></i></i><br>
+                     <h4>567 lignes de code</h4></li>
+                     <li><center><i class="fas fa-mug-hot fa-stack fa-inverse fa-4x"></i></i><br>
+                       <h4>27M de litre de café</h4></li>
+                      </font>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
 
 		<!-- parcours-->
     <div id="parcours">
@@ -126,8 +128,8 @@
 <br>
 
 <!-- parallax "Mes projets" -->
-<div class="parallax-projet" data-parallax="scroll" data-image-src="images/para.png" alt="" id="projets">
-  MES PROJETS</div>
+  <div class="parallax-projet" data-parallax="scroll" data-image-src="images/para.png" alt="" id="projets">
+    <font color="white">MES PROJETS</font></div>
   <!-- fin de parallax "Mes projets" -->
 
 <center>
@@ -155,7 +157,7 @@
 
 <!-- Début parallax "Mes tips" -->
 <div class="parallax-tip" data-parallax="scroll" data-image-src="images/para.png" alt="" id="tips">
-MES TIPS</div>
+  <font color="white">MES TIPS</font></div>
 <!-- Fin parallax "Mes tips" -->
 
 <!-- Début des 8 images des tips -->
