@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  font-family: arial;
+  font-size: 16px;
+}
+
+#main{
+      width: 100%;
+      background-size: cover;
+      position:fixed;
+      top: 0px;
+      z-index: 10;
+      transition: .5s;
+}
+/*logo*/
+.img{
+  margin-left: 6em;
+  float: left;
+}
+
+nav{
+    width: 100%;
+    height: 5em !important;
+    border: none;
+    background-color: #000 !important;
+}
+/*positionnement des liens ainsi que la transition lorsque la souris passe dessus*/
+nav ul{
+       float:right;
+       margin-right: 8em !important;
+}
+
+nav ul li{
+          list-style-type: none;
+          display: inline-block;
+          line-height: 5em;
+          transition: 0.8s all;
+          padding: 0 25px;
+}
+
+/*changement de couleur de fond au passage de la souris sur les liens*/
+nav ul li:hover{
+          background-color: #FF0000;
+}
+
+nav ul li a{
+           text-decoration: none;
+           color: #ffffff;
+           opacity: 1;
+           text-align: center;
+}
+
+/*Responsivité bar nav*/
+.icon{
+  width: 100%;
+  padding: 15px 20px;
+  text-align: right;
+  box-sizing: border-box;
+  color: white;
+  font-size: 2em;
+  display: none;
+}
+@media (max-width: 1150px){
+     .icon{
+     display: block;
+    }
+
+      ul{
+      width: 75%;
+      display:none;
+     }
+      ul li{
+      display: block;
+      text-align:center;
+     }
+}
+.active{
+  display: block;
+
+}
+@media (max-width: 850px){
+     .icon{
+     display: block;
+    }
+
+      ul{
+      width: 75%;
+      display:none;
+     }
+      ul li{
+      display: block;
+      text-align:center;
+     }
+}
+.active{
+  display: block;
+
+}
+@media (max-width: 450px){
+     .icon{
+     display: block;
+    }
+
+      ul{
+      width: 75%;
+      display:none;
+     }
+      ul li{
+      display: block;
+      text-align:center;
+
+     }
+}
+.active{
+  display: block;
+
+}
+
+.block{
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  opacity: 0;
+}
+.gallerie {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+#item, #item1, #item2, #item3, #item4, #item5, #item6, #item7 {
+  border: 0.5em solid #000;
+  margin: 1em 1em;
+  width: 20em;
+  height: 12em;
+  overflow: scroll;
+}
+#affiche {
+  margin-bottom: 3em;
+}
+/* Css de la pop up des tips */
+.pop-tips /*fond noir transparent*/ {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 250%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 50;
+}
+.frame /* cadre blanc de la pop-up*/ {
+  position: absolute;
+  width: 85%;
+  height: 50%;
+  top: 10em;
+  left: 6.2em;
+  background-color: #fff;
+  border-radius: 5%;
+  display: none;
+  z-index: 51;
+}
+#pop-tips /*image*/{
+  position: absolute;
+  top: 3em;
+  left: 25em;
+  width: 30em;
+  height: 20em;
+  z-index: 52;
+}
+#texte-tips /*paragraphe texte*/{
+  text-align: center;
+  margin-top: 26em;
+  margin-left: 20.5em;
+  z-index: 52;
+}
+.links /*div contenant liens*/{
+  position: absolute;
+  text-align: center;
+  margin-top: 45em;
+  margin-left: 33em;
+  z-index: 52;
+}
+.button-tips /*boutons des liens*/{
+  background-color: #000;
+  color: #fff;
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 15%;
+}
+.button-tips:hover /*au survol*/{
+  text-shadow: 0px 0px 5px #FF0000, 0px 0px 5px #FF0000, 0px 0px 5px #FF0000;
+}
+.fa-window-close /*quitter la pop-up*/{
+  position: absolute;
+  top: 2em;
+  right: 3em;
+}
+.fa-window-close:hover/*au survol*/ {
+  background-color: #FF0000;
+}
+.fa-window-close:active /*au clic*/ {
+  background-color: #fff;
+}

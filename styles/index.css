@@ -1,0 +1,300 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Bouton "all" */
+.bouton a {
+display:block;
+width:200px;
+line-height:50px;
+text-align:center;
+vertical-align:middle;
+background-color: black;
+color:white;
+text-decoration:none;
+font-size: 30px;
+border-radius: 100px;
+}
+
+.bouton a:hover {
+background-color: #f74c3c;
+}
+/* Fin des boutons "all" */
+
+/* parallax Projet et Tips */
+
+
+.parallax-projet {
+  min-height: 30vh;
+  background: transparent;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 50px;
+ }
+
+ .parallax-tip {
+   min-height: 30vh;
+   background: transparent;
+   text-align: center;
+   padding: 100px;
+   font-size: 50px;
+  }
+/* Fin des parallax */
+
+/* Mise en forme des 8 screens de projets et tips */
+#proj img {
+  margin: 10px;
+  margin-top: 30px;
+}
+
+#proj {
+  margin-bottom: 10px;
+}
+/* Fin de la mise en forme */
+
+/* CSS DE JEREM */
+
+.mySlides
+  {
+    display: none;
+  }
+
+img
+{
+  vertical-align: middle;
+}
+
+/* css du slide*/
+
+.container
+ {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+
+  }
+
+.mySlides
+  {
+    display: none;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  } 
+
+  .next
+  {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover
+  {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* animation du slide*/
+
+  .fade
+  {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade
+  {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes fade
+  {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* css de la partie qui suis je*/
+
+#qui-suis-je
+{
+  position: relative;
+  margin: 10px;
+  padding: 30px;
+
+}
+
+h3
+{
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline red;
+
+}
+
+.flex-container
+{
+    display: flex;
+    align-items: center;
+}
+
+ .qui
+{
+
+  position: relative;
+  float: left;
+  margin: auto;
+  padding: 5px;
+  border: 1px solid white;
+  width: 49%;
+  height: 49%;
+  display: block;
+  background-size: 100% auto;
+  text-align: center;
+}
+
+.qui img
+{
+  width: 100%;
+  height: auto;
+}
+
+/* css de la partie parcours */
+#parcours
+{
+  position: relative;
+  margin: 10px;
+  padding: 30px;
+  border: 2px solid red;
+}
+
+#parcours h4
+{
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline red;
+
+}
+
+#parcours h5
+{
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline red;
+}
+
+#parcours hr
+{
+  height: 3px;
+  border-color: red;
+  background-color: red;
+}
+
+#parcours ul
+{
+  list-style-type: none; /* retiré les points de la listes */
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* pour que les listes se place les une à côté des autres */
+  padding-left: 20px; /* pour espacer les listes les unes des autres */
+  padding-right: 100px; /* pour espacer les listes les unes des autres */
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+}
+/* fin de la partie parcours */
+
+/* FIN DU CSS DE JEREM */
+
+/* Responsivité */
+@media (max-width:767px) {
+  /* Responsivité des 8 screens de projets et tips */
+  #proj img {
+    margin-top: 20px;
+    width: 300px;
+  }
+  /* Fin de la mise en forme des 8 screens */
+
+  /* parallax */
+  .parallax-projet {
+    min-height: 30px;
+    background: transparent;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 30px;
+   }
+
+   .parallax-tip {
+     min-height: 30px;
+     background: transparent;
+     text-align: center;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     font-size: 30px;
+    }
+
+    .parallax-element {
+      padding-bottom: 900px;
+      padding-left: 30px;
+      min-height: 35px;
+      background: transparent;
+      text-align: center;
+           }
+    /* Fin de la parallax */
+ }
+/* Fin de la section de Responsivité */
+
+#menu,#menu li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  /*position: relative;*/
+  display: block !important;
+}
+
+#menu {
+  left: 50%;
+}
+
+#menu li {
+  right: 50%;
+  padding: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.parallax-element {
+  min-height: 30vh;
+  background: transparent;
+  text-align: center;
+  display: block !important;
+ }
