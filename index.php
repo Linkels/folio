@@ -67,11 +67,7 @@
 
 
     <!-- paralax 4 elem -->
-    <div class="parallax-element" data-parallax="scroll" data-image-src="images/para.png" alt="" id="par">
-
-      <div id="get-involved">
-       <div id="ico">
-         <div id="wrapper">
+    <div class="parallax-element" data-parallax="scroll" data-image-src="images/para.png" alt="" id="">
            <ul id="menu">
              <font color="white">
                <li><center><i class="fas fa-tasks fa-stack fa-inverse fa-4x"></i></i><br>
@@ -84,9 +80,6 @@
                        <h4>27M de litre de café</h4></li>
                       </font>
                     </ul>
-                  </div>
-                </div>
-              </div>
             </div>
 
 		<!-- parcours-->

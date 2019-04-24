@@ -319,16 +319,18 @@ h3
 
     .parallax-element {
       padding-bottom: 900px;
-      padding-left: 100px;
+      padding-left: 50x;
       min-height: 35px;
       background: transparent;
       text-align: center;
+      float: left;
            }
     /* Fin de la parallax */
     .timeline{
       margin-left:150px;
       overflow:visible;
     }
+
  }
 /* Fin de la section de Responsivité */
 
@@ -355,7 +357,5 @@ h3
 .parallax-element {
   min-height: 30vh;
   background: transparent;
-  text-align: center;
-  display: block;
-  padding-left: 250px;
+  display: block !important;
  }
