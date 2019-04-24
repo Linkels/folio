@@ -93,6 +93,7 @@
     <div id="parcours">
   		<h4>PARCOURS</h4>
   		<hr>
+
       <!-- The Timeline -->
 
 <ul class="timeline">
@@ -131,6 +132,7 @@
 	</li>
 
 </ul>
+</div>
 		<!-- fin de parcours-->
 
 

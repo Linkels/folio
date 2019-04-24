@@ -460,9 +460,9 @@ h3
   padding-left: 100px;
 }
 
-.parallax-element { 
+.parallax-element {
   min-height: 30vh;
   background: transparent;
   text-align: center;
-  display: block !important;
+  display: block;
  }

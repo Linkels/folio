@@ -111,3 +111,12 @@ body {
     overflow-y: auto;
   }
 }
+
+header > .nav {
+  height: 50px;
+  width: 100%;
+  font-family: 'Arvo';
+  opacity: 0;
+  text-transform: uppercase;
+  position: fixed;
+}

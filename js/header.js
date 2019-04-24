@@ -1,20 +1,16 @@
 $(document).ready(function(){
-
-    $(window).scroll(function(){
-
-      if($(window).scrollTop()>600){
-        $("nav").addClass('black');
+  $(window).scroll(function(){
+      var scroll = $(window).scrollTop();
+      if (scroll > 1000) {
+        $(".nav").css("opacity" , "1");
       }
+
+      else if (scroll === 1) {
+        $(".nav").css("opacity" , "1");
+      }
+
       else{
-        $("nav").removeClass('black');
+          $(".nav").css("opacity" , "0.8");
       }
-    });
-});
-
-$(document).ready(function(){
-  $('.menu').click(function(){
-    $('ul').mainClass('active')
-
-
   })
 })

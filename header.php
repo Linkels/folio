@@ -1,6 +1,8 @@
 <link href="styles/header.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="js/header.js"></script>
 
 <!--Barre nav avec images-->
+<header>
 <div class="nav">
   <input type="checkbox" id="nav-check">
   <div class="nav-header">
@@ -22,3 +24,4 @@
     <a href="#tips">Mes Tips</a>
   </div>
 </div>
+</header>
