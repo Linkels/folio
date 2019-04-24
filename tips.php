@@ -23,13 +23,10 @@
     </div>
 
     <div class="nav-links">
-      <a href="#">Accueil</a>
-      <a href="#Qui-suis-je?">Qui Suis Je ?</a>
-      <a href="#par">Parcours</a>
-      <a href="#projets">Mes Projets</a>
-      <a href="#tips">Mes Tips</a>
-    </div>
+      <a href="index.php">Accueil</a>
+      <a href="projets.php">Mes Projets</a>
   </div>
+</div>
 
   <div class="block">
 

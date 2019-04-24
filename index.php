@@ -96,42 +96,35 @@
 
       <!-- The Timeline -->
 
-<ul class="timeline">
-
-	<!-- Expérience la plus récente -->
-	<li>
-		<div class="direction-r"> <!--déployée du côté droit-->
-			<div class="flag-wrapper">
-				<span class="flag">INTERNATIONAL CODE</span> <!-- Intitulé -->
-				<span class="time-wrapper"><span class="time">21/03/2018 au 09/01/2019</span></span> <!-- affichage de la période -->
-			</div>
-			<div class="desc">J'ai créé des sites pour des entreprise multinationales !</div> <!-- description de l'expérience -->
-		</div>
-	</li>
-
-	<!-- Expérience intermédiaire -->
-	<li>
-		<div class="direction-l"> <!--déployée du côté gauche-->
-			<div class="flag-wrapper">
-				<span class="flag">LE CODE DU 18 BRUMAIRE</span> <!-- Intitulé -->
-				<span class="time-wrapper"><span class="time">06/04/2016 au 10/03/2018</span></span> <!-- affichage de la période -->
-			</div>
-			<div class="desc">Dans cet entreprise j'ai créé des sites pour des gouvernements révolutionnaires !!</div> <!-- description de l'expérience -->
-		</div>
-	</li>
-
-	<!-- Expérience la plus ancienne -->
-	<li>
-		<div class="direction-r"> <!--déployée du côté droit-->
-			<div class="flag-wrapper">
-				<span class="flag">CODE DOMINUM</span> <!-- Intitulé -->
-				<span class="time-wrapper"><span class="time">19/07/2014 au 02/04/2016</span></span> <!-- affichage de la période -->
-			</div>
-			<div class="desc">Dans cette entreprise j'ai codé des sites pour des grands restaurants à ROME.</div> <!-- description de l'expérience -->
-		</div>
-	</li>
-
-</ul>
+      <div class="timeline">
+          <div class="entry">
+            <div class="core">
+            <h3>2005</h3> <!-- H3 en cas d'une seule date -->
+              Information 3
+            </div>
+          </div>
+             <br/><br/>
+          <div class="entry">
+            <div class="core">
+              <h3>2010</h3>
+              Information 2
+            </div>
+          </div>
+           <br/><br/>
+          <div class="entry">
+            <div class="core">
+            <h3>2010<br></h3>
+              Nom du métiers ou projets
+            </div>
+          </div>
+          <br/><br/>
+         <div class="entry">
+           <div class="core">
+           <h2>De 2018<br>à 2019</h2> <!-- H2 en cas de 2 dates -->
+             Nom du métiers ou projets
+           </div>
+         </div>
+      </div>
 </div>
 		<!-- fin de parcours-->
 
