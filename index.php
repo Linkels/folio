@@ -78,19 +78,19 @@
       <font color="white">
         <li>
           <center><i class="fas fa-tasks fa-stack fa-inverse fa-4x"></i></i><br>
-            <h4>11 projets</h4>
+            <h4>8 projets</h4>
         </li>
         <li>
           <center><i class="fas fa-user-check fa-stack fa-inverse fa-4x"></i></i><br>
-            <h4>11 clients</h4>
+            <h4>1 client</h4>
         </li>
         <li>
           <center><i class="fas fa-code fa-stack fa-inverse fa-4x"></i></i><br>
-            <h4>567 lignes de code</h4>
+            <h4>1107 combos ATOM</h4>
         </li>
         <li>
           <center><i class="fas fa-mug-hot fa-stack fa-inverse fa-4x"></i></i><br>
-            <h4>27M de litre de café</h4>
+            <h4>27M de litres de café</h4>
         </li>
       </font>
     </ul>
