@@ -21,7 +21,9 @@
     <a href="#Qui-suis-je?">Qui Suis Je ?</a>
     <a href="#par">Parcours</a>
     <a href="#projets">Mes Projets</a>
+    <!--
     <a href="#tips">Mes Tips</a>
+  -->
   </div>
 </div>
 </header>

@@ -22,9 +22,9 @@
 
     <div class="nav-links">
       <a href="index.php">Accueil</a>
-      <a href="tips.php">Mes Tips</a>
     </div>
   </div>
+  
   <div class="block">
   </div>
   <div class="gallerie">
@@ -53,7 +53,7 @@
       <img src="images/logosimplon.png" alt="à définir"/>
     </span>
     </div>
-    <!-- Modal part -->
+    <!-- Modal part
     <div class="pop-tips">
       <div class="frame">
         <i id="close" class="fas fa-window-close fa-2x"></i>
@@ -85,6 +85,7 @@
           <a href="#"><button class="button-projet">Redirection</button></a>
           <a href="https://github.com/ntoine08/projet-portfolio.git"><button class="button-projet">Git</button></a>
         </div>
+      -->
       </div>
     </div>
     <script type="text/javascript" src="styles/jquery.js"></script>

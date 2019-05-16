@@ -21,12 +21,12 @@
 
   <!-- partie du slider-->
   <div class="container">
-    <!--images du slide-->
+    <!--images du slide
     <div class="mySlides">
       <div class="numbertext"></div>
       <img src="images/image1.png" style="width:100%">
 
-    </div>
+    </div> -->
 
     <div class="mySlides">
       <div class="numbertext"></div>
@@ -57,8 +57,8 @@
       <!-- container de la partie qui suis je -->
       <div class="qui">
         <!-- partie texte de qui suis je -->
-        <p>Un texte est une série orale ou écrite de mots perçus comme constituant un ensemble cohérent, porteur de sens et utilisant les structures propres à une langue (conjugaisons, construction et association des phrases…)1. Un texte n'a pas de
-          longueur déterminée sauf dans le cas de poèmes à forme fixe comme le sonnet ou le haïku. L'étude formelle des textes s'appuie sur la linguistique, qui est l'approche scientifique du langage.</p>
+        <p>Je suis un jeune simplonien passioné de code ! Je souhaite faire de cette passion mon métier.<br>
+        Je suis plus du coté Front de la force.</p>
       </div>
 
       <div class="qui">
@@ -106,17 +106,18 @@
     <div class="timeline">
       <div class="entry">
         <div class="core">
-          <h3>2005</h3> <!-- H3 en cas d'une seule date -->
-          Information 3
+          <h2>2016-2017</h2> <!-- H3 en cas d'une seule date -->
+          <p>Stage / SARL DOC MICRO</p>
         </div>
       </div>
       <br /><br />
       <div class="entry">
         <div class="core">
-          <h3>2010</h3>
-          Information 2
+          <h2>Août 2017</h2>
+          Préparation Militaire de découverte
         </div>
       </div>
+      <!--
       <br /><br />
       <div class="entry">
         <div class="core">
@@ -127,8 +128,8 @@
       <br /><br />
       <div class="entry">
         <div class="core">
-          <h2>De 2018<br>à 2019</h2> <!-- H2 en cas de 2 dates -->
-          Nom du métiers ou projets
+          <h2>De 2018<br>à 2019</h2>  H2 en cas de 2 dates
+          Nom du métiers ou projets -->
         </div>
       </div>
     </div>
@@ -147,33 +148,34 @@
   <center>
     <!-- Début des 8 screens des projets accomplis -->
     <div id="proj">
-      <a href="#"><img src="images/projet.png" width="20%" height="200px"></a>
-      <a href="#"><img src="images/projet.png" width="20%" height="200px"></a>
-      <a href="#"><img src="images/projet.png" width="20%" height="200px"></a>
-      <a href="#"><img src="images/projet.png" width="20%" height="200px"></a>
+      <a href="http://www.chaumoitre.simplon-charleville.fr/cv/"><img src="images/cv.png" width="20%" height="200px"></a>
+      <a href="http://www.chaumoitre.simplon-charleville.fr/auto-ecole/"><img src="images/auto_ecole.png" width="20%" height="200px"></a>
+      <a href="http://www.chaumoitre.simplon-charleville.fr/Simplon/index.php"><img src="images/Simplon_matrix.png" width="20%" height="200px"></a>
+      <a href="http://www.chaumoitre.simplon-charleville.fr/auto/"><img src="images/Auto_Simplon.png" width="20%" height="200px"></a>
       <br>
 
-      <a href="#"><img src="images/projet.png" width="20%" height="200px"></a>
-      <a href="#"><img src="images/projet.png" width="20%" height="200px"></a>
-      <a href="#"><img src="images/projet.png" width="20%" height="200px"></a>
-      <a href="#"><img src="images/projet.png" width="20%" height="200px"></a>
+      <a href="http://www.chaumoitre.simplon-charleville.fr/exo/"><img src="images/OML.png" width="20%" height="200px"></a>
+      <a href="http://www.chaumoitre.simplon-charleville.fr/test/"><img src="images/Maquettage_soumis.png" width="20%" height="200px"></a>
+      <a href="http://www.chaumoitre.simplon-charleville.fr/jeu/"><img src="images/ROMOITVERS.png" width="20%" height="200px"></a>
+      <a href="http://www.chaumoitre.simplon-charleville.fr/Azeroleplay/"><img src="images/Azeroleplay.png" width="20%" height="200px"></a>
       <br><br>
+      <!--
       <div class="bouton">
         <p>
           <a href="projets.php">ALL »</a>
         </p>
       </div>
-      <!-- Fin des screens des projets accomplis -->
+       Fin des screens des projets accomplis -->
 
     </div><br><br>
 
-    <!-- Début parallax "Mes tips" -->
+    <!-- Début parallax "Mes tips"
     <div class="parallax-tip" data-parallax="scroll" data-image-src="images/para.png" alt="" id="tips">
       <font color="white">MES TIPS</font>
     </div>
-    <!-- Fin parallax "Mes tips" -->
+     Fin parallax "Mes tips" -->
 
-    <!-- Début des 8 images des tips -->
+    <!-- Début des 8 images des tips
     <div id="proj">
       <a href="#"><img src="images/logosimplon.png" width="350px"></a>
       <a href="#"><img src="images/logosimplon.png" width="350px"></a>
@@ -194,7 +196,7 @@
     </div>
 
   </center>
-  <!-- Fin des tips -->
+   Fin des tips -->
 </body>
 
 <?php include "footer.php";?>

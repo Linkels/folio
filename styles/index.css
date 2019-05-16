@@ -359,3 +359,7 @@ h3
   background: transparent;
   display: block !important;
  }
+
+ h2 {
+   font-size: 10px;
+ }
